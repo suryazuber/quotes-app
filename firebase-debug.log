@@ -1,0 +1,25 @@
+[debug] [2022-04-24T07:39:26.644Z] ----------------------------------------------------------------------
+[debug] [2022-04-24T07:39:26.646Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Zuber\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-04-24T07:39:26.646Z] CLI Version:   10.7.1
+[debug] [2022-04-24T07:39:26.646Z] Platform:      win32
+[debug] [2022-04-24T07:39:26.647Z] Node Version:  v16.14.2
+[debug] [2022-04-24T07:39:26.647Z] Time:          Sun Apr 24 2022 13:09:26 GMT+0530 (India Standard Time)
+[debug] [2022-04-24T07:39:26.647Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-24T07:39:26.653Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-24T07:39:26.654Z] > authorizing via signed-in user (suryazuber@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\wamp64\www\play\react\quotes-app
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+

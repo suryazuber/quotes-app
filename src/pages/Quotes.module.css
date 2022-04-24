@@ -1,0 +1,183 @@
+/* QuoteList.module.css */
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sorting {
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #b2d4d4;
+    margin-bottom: 2rem;
+  }
+  
+  .sorting button {
+    font: inherit;
+    color: teal;
+    border: 1px solid teal;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+  }
+  
+  .sorting button:hover {
+    background-color: #c2fafa;
+  }
+
+  /* QuoteList.module.css */
+  .quote {
+    background-color: #6cdada;
+    color: white;
+    border-radius: 6px;
+    padding: 3rem;
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  .quote p {
+    font-size: 2.5rem;
+  }
+  
+  .quote figcaption {
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: right;
+    color: #a1e0e0;
+  }
+  /* QuoteItem.module.css */
+  .item {
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: #c2e7f0;
+  }
+  
+  .item:last-of-type {
+    border-bottom: none;
+  }
+  
+  .item figure {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+  }
+  
+  .item blockquote {
+    margin: 0;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #212929;
+  }
+  
+  .item p {
+    margin: 0;
+    margin-bottom: 0.25rem;
+  }
+  
+  .item figcaption {
+    font-style: italic;
+    color: #566d6d;
+    text-align: left;
+  }
+  /* QuoteItem.module.css */
+
+  /* QuoteForm.module.css */
+  .form {
+    position: relative;
+  }
+  
+  .loading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .control input,
+  .control textarea {
+    font: inherit;
+    padding: 0.35rem;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    border: 1px solid #c1d1d1;
+    display: block;
+    width: 100%;
+    font-size: 1.25rem;
+  }
+  
+  .control input:focus,
+  .control textarea:focus {
+    background-color: #cbf8f8;
+    outline-color: teal;
+  }
+  
+  .actions {
+    text-align: right;
+  }
+  
+  .actions button {
+    font-size: 1.25rem;
+  }
+  /* QuoteForm.module.css */
+
+  /* NoQuotesFound.module.css */
+  .noquotes {
+    height: 20rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .noquotes p {
+    color: #262c2c;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  /* NoQuotesFound.module.css */
+
+  /* HighlightedQuote.module.css */
+  .quote {
+    background-color: #a4f0f0;
+    color: white;
+    border-radius: 6px;
+    padding: 3rem;
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  .quote p {
+    font-size: 2.5rem;
+  }
+  
+  .quote figcaption {
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: right;
+    color: #0b1717;
+  }
+  /* HighlightedQuote.module.css */
